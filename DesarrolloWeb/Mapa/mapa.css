@@ -1,0 +1,62 @@
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+}
+.titulo{
+    text-align: center;
+    color: #5E2ED6;
+    display: flex;
+}
+.boton {
+    background: #FFFFFF;
+    border: 0px;
+    text-align: center;
+    color: #7060E6;
+    flex: auto;
+    flex-grow: 0;
+    bottom: auto;
+    padding: 3px;
+    margin: 3px;
+    cursor: pointer;
+    height: 20px;
+    margin: 8px;
+}
+.logOut{
+    width: 10px;
+    height: 10px;
+}
+.divPrincipal {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /* width: fit-content; */
+    /* height: fit-content; */
+    /* background-color: #555597; */
+    padding: 10px;
+    text-align: center;
+    width: 98%;
+    height: 100vh;
+    align-items: center;
+    border-radius: 3px;
+    /* border: 1px solid #555597; */
+    display: flex;
+    justify-content: space-between;
+}
+.llamadaAuxilio{
+    border: 1px solid red;
+    width: 30%;
+    height: 100%;
+    margin: 4px;
+    padding: 4px;
+}
+
+.mapa{
+    border: 1px solid green;
+    width: 70%;
+    height: 100%;
+    margin: 4px;
+    padding: 4px;
+}
