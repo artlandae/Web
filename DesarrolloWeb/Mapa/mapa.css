@@ -1,6 +1,9 @@
 .encabezado{
+    position: relative;
+    margin: 1%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .titulo{
     text-align: center;
@@ -22,8 +25,8 @@
     margin: 8px;
 }
 .logOut{
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
 }
 .divPrincipal {
     position: relative;
@@ -34,29 +37,38 @@
     margin: auto;
     /* width: fit-content; */
     /* height: fit-content; */
-    /* background-color: #555597; */
-    padding: 10px;
     text-align: center;
-    width: 98%;
-    height: 100vh;
+    width: 100%;
+    height: 85vh;
     align-items: center;
     border-radius: 3px;
-    /* border: 1px solid #555597; */
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid #555597; */
 }
 .llamadaAuxilio{
     border: 1px solid red;
     width: 30%;
-    height: 100%;
-    margin: 4px;
-    padding: 4px;
+    height: 96%;
+    margin: 1%; 
+    padding: 1%;
+}
+
+.tarjetaUsusarios{
+    border: 1px solid orange;
 }
 
 .mapa{
     border: 1px solid green;
     width: 70%;
-    height: 100%;
-    margin: 4px;
-    padding: 4px;
+    height: 96%;
+    margin: 1%; 
+    align-items: center;
+    padding: 1%;
+}
+
+.googleMaps{
+    width: 98%;
+    height: 94%;
+    margin: 1%;
 }
