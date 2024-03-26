@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <title>Vista google maps</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="mapa.css">
-        <script src="mapa.js"></script>        
+        <link rel="stylesheet" type="text/css" href="mapa.css">    
     </head>
     <body>
         <div class="encabezado">
             <h3 class="titulo">Llamadas de auxilio</h3>
+            <a id="nav" href="../Login/index.html">Home</a>
             <button  onclick="location.href='../Login/index.html'" class="boton"><img class="logOut" src="../src/LogOut.png" alt=""> </button>
         </div>
         <div class="divPrincipal">
@@ -19,7 +19,9 @@
                 <div class="tarjetaUsusarios">
                     Usuario 1 que pidio auxilio
                 </div>
-
+                
+                <button id="changeBackground">Change Background Color</button>
+                <script src="mapa.js"></script>    
             </div>
             <div class="mapa">
                 Aquí se visualizara el mapa de google maps
