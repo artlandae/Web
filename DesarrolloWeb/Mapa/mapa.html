@@ -4,27 +4,32 @@
         <meta charset="utf-8">
         <title>Vista google maps</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="mapa.css">    
+        <link rel="stylesheet" type="text/css" href="mapa.css">
     </head>
     <body>
         <div class="encabezado">
-            <h3 class="titulo">Llamadas de auxilio</h3>
-            <a id="nav" href="../Login/index.html">Home</a>
-            <button  onclick="location.href='../Login/index.html'" class="boton"><img class="logOut" src="../src/LogOut.png" alt=""> </button>
+            <!-- <div class="contenedor-titulo"> -->
+                <h1 class="titulo">Llamadas de auxilio</h1>
+            <!-- </div> -->
+            <div class="contenedor-logOut">
+                <button  onclick="location.href='../Login/index.html'" class="boton"><img class="logOut" src="../src/LogOut.png" alt=""> </button>
+            </div>
         </div>
         <div class="divPrincipal">
             <div class="llamadaAuxilio">
-                <p>Usuarios que pidieron ayuda por la aplicación</p>
-
+                <label  for="">
+                    <p>Usuarios que pidieron ayuda por la aplicación</p>
+                </label>
                 <div class="tarjetaUsusarios">
                     Usuario 1 que pidio auxilio
                 </div>
                 
-                <button id="changeBackground">Change Background Color</button>
-                <script src="mapa.js"></script>    
+                <!-- <button id="changeBackground">Change Background Color</button>
+                <script src="mapa.js"></script>     -->
             </div>
             <div class="mapa">
-                Aquí se visualizara el mapa de google maps
+                <span class="tituloMapa">Aquí se visualizara el mapa de google maps</span>
+                
                 <img class="googleMaps" src="../src/mapa.png" alt="">
             </div>
         </div>

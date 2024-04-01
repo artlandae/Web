@@ -1,10 +1,15 @@
 
-.titulo{
+.titulo {
     text-align: center;
     color: #5E2ED6;
+    font-size: 100%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 24px;
+    margin-top: 24px;
 }
 .divPrincipal{
-    position: absolute;
+    position: static;
     top: 0;
     left: 0;
     right: 0;

@@ -1,14 +1,25 @@
 .encabezado{
     position: relative;
     margin: 1%;
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
+}
+.contenedor-titulo{
+    text-align: center;
 }
 .titulo{
     text-align: center;
     color: #5E2ED6;
-    display: flex;
+    font-size: 100%;
+    width: 100%;
+    margin-top: 24px;
+}
+.contenedor-logOut{
+    align-items: center;
+    position: absolute;
+    right: 8px;
+    top: -10px;
 }
 .boton {
     background: #FFFFFF;
@@ -49,8 +60,8 @@
 .llamadaAuxilio{
     border: 1px solid red;
     width: 30%;
-    height: 96%;
-    margin: 1%; 
+    height: auto;
+    margin: 1%;
     padding: 1%;
 }
 
@@ -61,14 +72,29 @@
 .mapa{
     border: 1px solid green;
     width: 70%;
-    height: 96%;
+    height: auto;
     margin: 1%; 
     align-items: center;
     padding: 1%;
+}
+
+.tituloMapa{
+    text-align: center;
+    font-style: 100%;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;;
 }
 
 .googleMaps{
     width: 98%;
     height: 94%;
     margin: 1%;
+}
+
+.div-responsive{   
+  display: flex;
+  flex-flow: row-reverse wrap;
+  flex-direction: column;
+  align-items: center;
 }
